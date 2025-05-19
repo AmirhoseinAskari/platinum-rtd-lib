@@ -1,2 +1,2 @@
 # platinum-rtd-lib
-C library for platinum RTD sensors based on the Callendar–Van Dusen equation.
+High-accuracy temperature-resistance conversion utilities for platinum RTD sensors in C/C++
