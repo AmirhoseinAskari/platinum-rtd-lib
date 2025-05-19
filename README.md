@@ -7,9 +7,9 @@ High-accuracy temperature-resistance conversion utilities for platinum RTD senso
 - Supports platinum RTD sensor types: `PT50`, `PT100`, `PT200`, `PT500`, `PT1000`  
 - Convert resistance (Ω) ↔ temperature (°C) using the Callendar–Van Dusen equation  
 - Iterative Newton–Raphson method for temperature calculation  
+- Temperature range: **-200°C to +850°C**, compliant with IEC 60751 standard  
 - Lightweight, portable C code  
-- **Compliant with IEC 60751 standard** for platinum RTDs  
-- Suitable for embedded and safety-critical systems  
+- **Developed with consideration of MISRA-C guidelines** for safety-critical and embedded systems  
 
 ## 🧪 API Reference
 
