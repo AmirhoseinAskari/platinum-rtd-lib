@@ -13,12 +13,12 @@ High-accuracy temperature-resistance conversion utilities for platinum RTD senso
 
 ## 🧪 API Reference
 
-### `double RTD_CalculateResistance(uint16_t sensor_type, double temperature)`
+### `RTD_CalculateResistance(...)`
 
 Converts temperature (in °C) to RTD resistance (in ohms).  
 Returns the resistance, or `RTD_CONVERSION_FAILED` if the temperature is out of range.
 
-### `double RTD_CalculateTemperature(uint16_t sensor_type, double resistance, double initial_temperature_estimate)`
+### `RTD_CalculateTemperature(...)`
 
 Converts RTD resistance (in ohms) to temperature (in °C) using iterative approximation.  
 Returns the temperature, or `RTD_CONVERSION_FAILED` if the resistance is out of range or iteration fails.
