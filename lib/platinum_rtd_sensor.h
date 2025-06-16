@@ -23,6 +23,10 @@
 #ifndef _PLATINUM_RTD_SENSOR_H
 #define _PLATINUM_RTD_SENSOR_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 /* ------------------------------------- Includes ------------------------------------- */
 
@@ -56,14 +60,8 @@
 #define  RTD_CONVERSION_FAILED  -1.0e6    /**< Conversion failure return value */
 
 
-
 /* ------------------------------------ Prototype ------------------------------------- */
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-        
+      
 /**
  * @brief Calculates RTD resistance from temperature.
  *
